@@ -10,6 +10,7 @@ on:
 jobs:
   test-upload-attachment:
     runs-on: ubuntu-latest
+    environment: dev
     steps:
       - uses: sazid/zeuz-actions-upload-attachment@v1.0
         with:
