@@ -17,5 +17,5 @@ jobs:
           zeuz_api_key: ${{ secrets.ZEUZ_API_KEY }}
           zeuz_attachment_type: ${{ vars.ZEUZ_ATTACHMENT_TYPE }}
           zeuz_attachment_item_id: ${{ vars.ZEUZ_ATTACHMENT_ITEM_ID }}
-          zeuz_attachment_path: test.txt
+          zeuz_attachment_path: /home/runner/work/_actions/sazid/zeuz-actions-upload-attachment/v1.0/dist/test.txt
           zeuz_attachment_replace: true
