@@ -14,8 +14,16 @@ inputs:
     description: 'type of attachment, possible values: global, test_case, step'
     required: true
   zeuz_attachment_item_id:
-    description: 'if test_case/step is selected as type, you need to provide the id of the test case or step'
+    description: 'if test_case/step is selected as type, you must provide the id of the test case or step'
+    required: false
+    default: none
+  zeuz_attachment_path:
+    description: 'path to the attachment to upload attachment'
     required: true
+  zeuz_attachment_replace:
+    description: 'set true to replace existing attachment in place, otherwise false (default: true)'
+    required: true
+    default: true
 outputs:
   upload_success: # output will be available to future steps
     description: 'Whether the upload was successful or not. Possible values: true, false'
