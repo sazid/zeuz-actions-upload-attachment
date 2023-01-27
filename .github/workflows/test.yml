@@ -1,0 +1,19 @@
+name: "Test action"
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - 'releases/*'
+  workflow_dispatch:
+
+jobs:
+  test-upload-attachment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sazid/zeuz-actions-upload-attachment@v1.0
+        with:
+          zeuz_server_host: ${{ secrets.ZEUZ_SERVER_HOST }}
+          zeuz_api_key: ${{ secrets.ZEUZ_API_KEY }}
+          zeuz_attachment_type: ${{ vars.ZEUZ_ATTACHMENT_TYPE }}
+          zeuz_attachment_item_id: ${{ vars.ZEUZ_ATTACHMENT_ITEM_ID }}
