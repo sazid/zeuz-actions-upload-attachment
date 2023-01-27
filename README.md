@@ -1,5 +1,5 @@
 # ZeuZ GitHub Action - Upload attachment
-[![Test action](https://github.com/sazid/zeuz-actions-upload-attachment/test.yml/badge.svg)](https://github.com/sazid/zeuz-actions-upload-attachment/test.yml)
+[![Test action](https://github.com/sazid/zeuz-actions-upload-attachment/actions/workflows/test.yml/badge.svg)](https://github.com/sazid/zeuz-actions-upload-attachment/actions/workflows/test.yml)
 
 ## Usage
 
@@ -16,4 +16,4 @@ with:
 
 **We highly recommend to put the api key in GitHub secrets**.
 
-See the [actions tab](https://github.com/sazid/zeuz-actions-upload-attachment/test.yml) for runs of this action! :rocket:
+See the [actions tab](https://github.com/sazid/zeuz-actions-upload-attachment/actions) for runs of this action! :rocket:
