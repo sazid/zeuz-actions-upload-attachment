@@ -1,7 +1,7 @@
 {
-  "name": "zeuz-actions-check-node-availability",
+  "name": "zeuz-actions-upload-attachment",
   "version": "1.0.0",
-  "description": "ZeuZ GitHub Action - Check node availability",
+  "description": "ZeuZ GitHub Action - Upload attachment",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
